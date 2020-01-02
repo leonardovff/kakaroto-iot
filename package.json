@@ -1,0 +1,23 @@
+{
+  "name": "kakaroto-iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardovff/kakaroto-iot.git"
+  },
+  "author": "leonardovff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leonardovff/kakaroto-iot/issues"
+  },
+  "homepage": "https://github.com/leonardovff/kakaroto-iot#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "puppeteer": "^2.0.0"
+  }
+}
