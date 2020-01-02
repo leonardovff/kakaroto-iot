@@ -11,11 +11,11 @@ const shell = require('shelljs');
 // });
 
 // for test
-cron.schedule('15 7 * * *', function(){
+cron.schedule('22 7 * * *', function(){
     console.log('wifi: turn on');
     shell.exec('node wifi-setup.js 1');
 });
-cron.schedule('16 7 * * *', function(){
+cron.schedule('23 7 * * *', function(){
     console.log('wifi: turn off');
     shell.exec('node wifi-setup.js 0');
 });

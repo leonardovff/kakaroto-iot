@@ -6,3 +6,6 @@ Kakaroto IOT is a repository of script used for control my home devices.
 * Air conditioner - Doing.
 * Window Blackout - Doing.
 More?
+
+# DEPENDENCIES
+https://github.com/puppeteer/puppeteer/blob/master/docs/troubleshooting.md#chrome-headless-doesnt-launch-on-unix
