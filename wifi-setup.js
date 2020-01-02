@@ -3,7 +3,7 @@ const puppeteer = require('puppeteer');
 const VALUE_TO_SWITCH = process.argv[2] == '0' ? false : true;
 
 (async () => {
-    const browser = await puppeteer.launch({ headless: false, slowMo: 100 });
+    const browser = await puppeteer.launch({ headless: true, slowMo: 100 });
     const [page] = await browser.pages();
 
     // AUTH

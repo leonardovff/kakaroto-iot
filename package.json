@@ -18,6 +18,8 @@
   "homepage": "https://github.com/leonardovff/kakaroto-iot#readme",
   "dependencies": {
     "dotenv": "^8.2.0",
-    "puppeteer": "^2.0.0"
+    "node-cron": "^2.0.3",
+    "puppeteer": "^2.0.0",
+    "shelljs": "^0.8.3"
   }
 }
