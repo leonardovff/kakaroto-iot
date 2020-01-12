@@ -1,11 +1,11 @@
 var cron = require('node-cron');
 const shell = require('shelljs');
 
-cron.schedule('30 6 * * *', function(){
+cron.schedule('30 5 * * *', function(){
     console.log('wifi: turn on');
     shell.exec('node wifi-setup.js 1');
 });
-cron.schedule('0 0 * * *', function(){
+cron.schedule('0 30 * * *', function(){
     console.log('wifi: turn off');
     shell.exec('node wifi-setup.js 0');
 });
